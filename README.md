@@ -19,7 +19,7 @@ This is a Telegram bot that downloads media and videos from YouTube, Instagram, 
 - `telebot` library
 - `yt-dlp` library
 - `pytube` library
-- FFmpeg look at https://pimylifeup.com/compiling-ffmpeg-raspberry-pi/
+- `FFmpeg` library
 
 ## Installation
 
@@ -34,6 +34,12 @@ This is a Telegram bot that downloads media and videos from YouTube, Instagram, 
 
    ```python
    TOKEN = 'YOUR_TOKEN_HERE'
+   ```
+
+4. Install ffmpeg
+
+   ```bash
+   sudo apt install ffmpeg -y
    ```
 
 ## Usage
